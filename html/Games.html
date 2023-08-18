@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/effects.css">
+    <link rel="stylesheet" href="../css/imageSlider.css">
+    <script src="../js/slideshow.js"></script>
+</head>
+<body>
+<nav class="">
+    <!--  made-up logo  -->
+    <a href="index.html" id="main-logo">
+        <p class="logo">H</p>
+        <div class="rectangle"></div>
+        <p class="logo">ME</p>
+    </a>
+
+    <div class="navLinks">
+        <div class="dropdown">
+            <a href="" class="navbar navbarButton">Games</a>
+            <div class="hidden">
+                <a href="Mik.html" class="navbar navSublinks">Mik</a>
+                <a href="ThreeToOne.html" class="navbar navSublinks">Three To One</a>
+                <a href="DeliverDeezNuts.html" class="navbar navSublinks">Deliver Deez Nuts</a>
+            </div>
+        </div>
+        <a href="Blog.html" class="navbar navbarButton">Blog</a>
+    </div>
+
+</nav>
+
+<div class="bar"></div>
+
+<div class="canvas-cont">
+    <canvas id="canvas3d"></canvas>
+</div>
+
+<div id="part0">
+    <div class="flex row">
+            <div class="games column">
+                <h1>Games</h1>
+                <div class="game">
+                    <h2>Mik</h2>
+                    <div class="part0-info flex column">
+                        <p>Mik is a story based & fast-paced first person jump & run game in which you explore a detailed & interactable abandoned facility. Run on walls, jump over cliffs and find out about the past of Revelo Robotics.
+                        </p>
+                        <a class="moreInfo"href="Mik.html">More Info</a>
+                        <button class="btn" onclick="window.open('https://store.steampowered.com/app/2547010/Mik/')">
+                            Wishlist on Steam
+                        </button>
+                    </div>
+                </div>
+
+                <div class="game">
+                    <h2>Three To One</h2>
+                    <div class="part0-info flex column">
+                        <p> Three To One is a short 3d Platformer originally created for the Ico Jam 2023. It features 10 Levels which you have to traverse by controlling 3 physics-cubes at once.
+                        </p>
+                        <a class="moreInfo"href="ThreeToOne.html">More Info</a>
+                        <button class="btn" onclick="window.open('https://stefaaan06.itch.io/three-to-one')">
+                            Download for Free
+                        </button>
+                    </div>
+                </div>
+
+                <div class="game">
+                    <h2>Deliver Deez Nuts</h2>
+                    <div class="part0-info flex column">
+                        <p> Deliver Deez Nuts is an arcade like open world game where your goal is to deliver Nuts to various locations on an open world while fighting enemies. Originally created for Ludum Dare 23
+                        </p>
+                        <a class="moreInfo"href="DeliverDeezNuts.html">More Info</a>
+                        <button class="btn" onclick="window.open('https://stefaaan06.itch.io/deliver-deez-nuts')">
+                            Download for Free
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        <div class="previewPart gamePreview">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="../img/ThreeToOne1.png" alt="Three To One Image 1" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../img/S1%20(Custom).png" alt="Mik Image 1" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../img/MikLogoNoCredits.png" alt="Mik Image 1" style="width:100%">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="part3" class="flex column">
+    <a href="https://twitter.com/Stefaaan06" class="moreInfo" target="_blank">By @Stefaaan06 - 2023</a>
+</div>
+</body>
+</html>

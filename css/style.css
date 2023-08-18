@@ -1,0 +1,314 @@
+body {
+    background-color: #000000;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex.column {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+nav {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    font-size: 2vh;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.black{
+    color: black;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 10vw;
+    position: relative;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -5px;
+    color: white;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    color: white;
+    margin: 0;
+}
+
+p{
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+li{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1vw;
+    color: white;
+    margin: 5px;
+}
+
+ul{
+
+}
+
+.logo{
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: normal;
+
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.navbar{
+    color: #FFFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: normal;
+
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.navLinks{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    flex-wrap: wrap;
+    flex: 0 1 10%;
+}
+
+.navSublinks{
+    font-size: 20px;
+    transition: ease-in 0.2s;
+    width: 100%;
+    padding: 2px;
+}
+
+.navSublinks:hover{
+    background: white;
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#hero {
+    margin-top: 5vh;
+    height: 100vh;
+    width: 25%;
+    align-self: flex-start;
+    justify-content: flex-start
+}
+
+#hero2{
+    margin-top: 5vh;
+    height: fit-content;
+    width: 100%;
+    align-self: flex-start;
+    justify-content: flex-start
+}
+
+#hero3{
+    margin-top: 5vh;
+    height: fit-content;
+    width: 100%;
+    align-self: flex-start;
+    justify-content: flex-start
+}
+.game{
+    margin-top: 5vh;
+    width: 80%;
+}
+.games{
+    width: 40%;
+}
+
+
+.previewPart{
+    align-self: flex-end;
+    align-content: center;
+    padding-bottom: 25vh;
+}
+
+.gamePreview{
+    padding-bottom: 0;
+}
+.moreInfo{
+    opacity: 0.7;
+    transition: ease-in 0.5s;
+}
+
+.moreInfo:hover{
+    opacity: 1;
+}
+
+.previewVideo{
+    width: 60vw;
+    height: 60vh;
+    outline: none;
+    align-self: flex-end;
+}
+
+#part0{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+#part1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.part0-info{
+    width: 120%;
+    align-self: flex-start;
+}
+.part1-info,
+.part2-info {
+    width: 30%;
+    gap: 40px;
+    padding: 1%;
+}
+
+
+#part2 {
+    height: 100vh;
+    width: 100%;
+}
+
+#part3 {
+    align-self: flex-start;
+    margin-top: 30px;
+}
+
+.scroll-icon {
+    height: 50px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 5px 14px 20px 14px;
+    box-sizing: border-box;
+}
+
+.scroll {
+    height: 10px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title {
+    display: inline-block;
+    letter-spacing: -30px;
+    transition: transform 0.2s;
+}
+
+@keyframes pressDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 10vw;
+        letter-spacing: 0;
+    }
+
+    li{
+        font-size: 3vh;
+    }
+
+    #hero{
+        width: 80%;
+        height: 100%;
+    }
+
+    #part0{
+        height: 50%;
+    }
+    .game{
+        width: 80%;
+    }
+
+    .games{
+        width: 100%;
+    }
+    .previewPart{
+        display: none;
+    }
+    .part1-info,
+    .part2-info {
+        width: 100%;
+    }
+
+    .navLinks{
+        flex: 0 1 50%;
+
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .title{
+        letter-spacing: 0;
+    }
+
+    .trailer{
+        display: none;
+    }
+
+}
