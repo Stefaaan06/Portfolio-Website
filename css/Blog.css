@@ -22,6 +22,8 @@
 
 .blogButton:hover{
     opacity: 1;
+    background: white;
+    color: black;
 }
 
 @media screen and (max-width: 1000px) {
