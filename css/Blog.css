@@ -11,13 +11,14 @@
 .blogButton{
     font-size: 1vw;
     opacity: 0.7;
-    transition: ease-in 0.5s;
+    transition: ease-in 0.3s;
 
     outline: solid;
     outline-color: white;
     width: fit-content;
     padding: 5px;
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 .blogButton:hover{
