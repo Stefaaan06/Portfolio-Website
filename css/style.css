@@ -11,7 +11,6 @@ body {
     padding: 20px;
     overflow-x: hidden;
 
-    opacity: 0;
     animation: fadeIn 1s;
     opacity: 1;
 }
@@ -41,6 +40,11 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    margin-top: 5vh;
 }
 
 p {
@@ -120,11 +124,11 @@ ul{
     display: flex;
 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 
     flex-wrap: wrap;
-    flex: 0 1 10%;
+    flex: 0 1 20%;
 }
 
 .navSublinks{
@@ -149,7 +153,7 @@ a{
 
 #hero {
     margin-top: 5vh;
-    height: 100vh;
+    height: fit-content;
     width: 25%;
     align-self: flex-start;
     justify-content: flex-start
@@ -180,9 +184,9 @@ a{
 
 
 .previewPart{
-    align-self: flex-end;
+    margin-top: 15vh;
+    align-self: flex-start;
     align-content: center;
-    padding-bottom: 25vh;
 }
 
 .gamePreview{
@@ -207,7 +211,7 @@ a{
 #part0{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     justify-content: space-between;
 }
@@ -276,7 +280,8 @@ a{
     }
 }
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1500px) {
     h1 {
         font-size: 10vw;
         letter-spacing: 0;
