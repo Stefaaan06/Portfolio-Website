@@ -307,7 +307,6 @@ a{
     }
 }
 
-
 @media screen and (max-width: 1500px) {
     h1 {
         font-size: 10vw;
@@ -366,6 +365,15 @@ a{
     }
 
     .moreInfo{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .moreInfo{
+        font-size: 4vw;
+    }
+    li{
         font-size: 4vw;
     }
 
