@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="../css/effects.css">
     <link rel="stylesheet" href="../css/imageSlider.css">
     <script src="../js/slideshow.js"></script>
+    <script src="../js/utilities.js"></script>
 </head>
 <body>
-<nav class="">
+<nav>
     <!--  made-up logo  -->
     <a href="index.html" id="main-logo">
         <p class="logo">H</p>
@@ -22,13 +23,13 @@
             <a href="Games.html" class="navbar navbarButton">Games</a>
             <div class="hidden">
                 <a href="Mik.html" class="navbar navSublinks">Mik</a>
+                <a href="aeterna.html" class="navbar navSublinks">Aeterna</a>
                 <a href="ThreeToOne.html" class="navbar navSublinks">Three To One</a>
                 <a href="DeliverDeezNuts.html" class="navbar navSublinks">Deliver Deez Nuts</a>
             </div>
         </div>
-        <a href="Blog.html" class="navbar navbarButton">Blog</a>
+        <a href="News.html" class="navbar navbarButton">News</a>
     </div>
-
 </nav>
 
 
@@ -49,15 +50,15 @@
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <img src="../img/DeliverDeezNuts1.png" alt="Deliver Deez Nuts 1" style="width:100%">
+                <img src="../img/DeliverDeezNuts/DeliverDeezNuts1.png" alt="Deliver Deez Nuts 1" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="../img/DeliverDeezNuts2.png" alt="Deliver Deez Nuts 2" style="width:100%">
+                <img src="../img/DeliverDeezNuts/DeliverDeezNuts2.png" alt="Deliver Deez Nuts 2" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="../img/DeliverDeezNuts3.png" alt="Deliver Deez Nuts 3" style="width:100%">
+                <img src="../img/DeliverDeezNuts/DeliverDeezNuts3.png" alt="Deliver Deez Nuts 3" style="width:100%">
             </div>
 
             <!-- Next and previous buttons -->
@@ -67,22 +68,25 @@
     </div>
 </div>
 <div id="part1" class="trailer">
+    <br>
     <svg class="line" height="50" width="800">
         <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
     </svg>
-    <h2>Gameplay Trailer</h2>
-    <div class="previewPart">
-        <iframe
-                class="previewVideo"
-                src="https://www.youtube.com/watch?v=KOI_jXyBkjg">
-        </iframe>
+    <div class="center">
+        <h2>Release Trailer</h2>
+        <div class="previewPart marginTop5 alignSelfCenter">
+            <iframe
+                    class="previewVideo"
+                    src="https://www.youtube.com/embed/KOI_jXyBkjg">
+            </iframe>
+        </div>
     </div>
 </div>
 
 
 
-<div id="part3" class="flex column">
-    <a href="https://twitter.com/Stefaaan06" class="moreInfo" target="_blank">By @Stefaaan06 - 2023</a>
-</div>
+<footer>
+    <a id="footer-text" href="https://twitter.com/Stefaaan06" class="moreInfo" target="_blank">By @Stefaaan06 - 2023</a>
+</footer>
 </body>
 </html>
