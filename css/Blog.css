@@ -18,7 +18,7 @@
     width: fit-content;
     padding: 5px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .blogButton:hover{
@@ -55,4 +55,30 @@
     padding: 1em 1.5em;
     display: block;
     word-wrap: break-word;
+}
+
+p{
+    padding-left: 1px;
+}
+
+@media screen and (max-width: 2000px) {
+    .blogButton{
+        font-size: 2vw;
+        outline-width: 2px;
+    }
+
+    h2{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .blogButton{
+        font-size: 5vw;
+        outline-width: 3px;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
 }
