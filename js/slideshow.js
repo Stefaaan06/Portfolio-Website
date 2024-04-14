@@ -1,8 +1,7 @@
-
 document.addEventListener("DOMContentLoaded", function() {
-    showSlides(1);
+    showSlides(slideIndex);
+    setInterval(function(){ plusSlides(1) }, 6000);
 });
-
 
 let slideIndex = 1;
 let i;
@@ -10,7 +9,11 @@ let slides = document.getElementsByClassName("mySlides");
 
 // Next/previous controls
 function plusSlides(n) {
-    showSlides(slideIndex += n);
+    slides[slideIndex-1].classList.add('fade-out');
+    setTimeout(function() {
+        slides[slideIndex-1].classList.remove('fade-out');
+        showSlides(slideIndex += n);
+    }, 1000); // same duration as the fade-out animation
 }
 
 function showSlides(n) {
@@ -20,5 +23,4 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     slides[slideIndex-1].style.display = "block";
-
 }

@@ -39,8 +39,8 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    margin-top: -50px;
-    font-size: 80px;
+    color: grey;
+
 }
 
 /* Caption text */
@@ -55,13 +55,28 @@
 }
 
 
-/* Fading animation */
 .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: 0}
     to {opacity: 1}
+}
+
+.fade-out {
+    animation: fade-out 1.1s;
+}
+
+@keyframes fade-out {
+    from {opacity: 1}
+    to {opacity: 0}
 }

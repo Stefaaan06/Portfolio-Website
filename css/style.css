@@ -42,11 +42,15 @@ nav {
     justify-content: space-between;
 }
 
-footer{
+footer {
     width: 100%;
     margin-top: 5vh;
 
     font-size: 17px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 p {

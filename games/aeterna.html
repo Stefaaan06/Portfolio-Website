@@ -1,9 +1,8 @@
-<!-- The HTML Sub-Page for the Game MIK -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Games | Mik</title>
+    <title>Games | Aeterna</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/effects.css">
     <link rel="stylesheet" href="../css/imageSlider.css">
@@ -13,7 +12,7 @@
 <body>
 <nav class="">
     <!--  made-up logo  -->
-    <a href="index.html" id="main-logo">
+    <a href="../hub/index.html" id="main-logo">
         <p class="logo">H</p>
         <div class="rectangle"></div>
         <p class="logo">ME</p>
@@ -21,7 +20,7 @@
 
     <div class="navLinks">
         <div class="dropdown">
-            <a href="Games.html" class="navbar navbarButton">Games</a>
+            <a href="../hub/Games.html" class="navbar navbarButton">Games</a>
             <div class="hidden">
                 <a href="Mik.html" class="navbar navSublinks">Mik</a>
                 <a href="aeterna.html" class="navbar navSublinks">Aeterna</a>
@@ -29,7 +28,7 @@
                 <a href="DeliverDeezNuts.html" class="navbar navSublinks">Deliver Deez Nuts</a>
             </div>
         </div>
-        <a href="News.html" class="navbar navbarButton">News</a>
+        <a href="../hub/News.html" class="navbar navbarButton">News</a>
     </div>
 
 </nav>
@@ -37,29 +36,16 @@
 
 <div id="part0">
     <div id="hero" class="flex column">
-        <h1>
-            <span class="title">M</span>
-            <span class=title>I</span>
-            <span class="title">K</span>
-        </h1>
+        <h1>Aeterna</h1>
 
         <div class="part0-info flex column">
-            <p>Mik is a story based & fast-paced first person jump & run game in which you explore a detailed & interactable abandoned facility. Run on walls, jump over cliffs and find out about the past of Revelo Robotics.
+            <p>Embark on a non-Euclidean odyssey in Aeterna, a puzzle-parkour game set in an endlessly looping world. Explore mind-bending landscapes, solving puzzles, and going trough parkour challenges.
+                <br> <br>
+                This is a game developed for GithubGameoff 2023 - Placed 56 overall and 26 in graphics out of 630 submissions.
             </p>
-            <button class="btn" onclick="window.open('https://store.steampowered.com/app/2547010/Mik/')">
-                Wishlist on Steam
+            <button class="btn" onclick="window.open('https://stefaaan06.itch.io/aeterna')">
+                Download for Free
             </button>
-        </div>
-
-        <div id="hero2" class="flex column">
-            <svg class="line" height="50" width="800">
-                <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
-            </svg>
-            <div class="part0-info flex column">
-                <h2>Gameplay</h2>
-                <p>Escape a broken & seemingly abandoned Facility by stringing together various movement abilities, interacting with the environment and solving simple Puzzles. <br> Traverse various Areas of the fallen Company and find out about its Past.
-                </p>
-            </div>
         </div>
 
         <div id="hero3" class="flex column">
@@ -69,30 +55,31 @@
             <div class="part0-info flex column">
                 <h2>Features</h2>
                 <ul>
-                    <li>Interactable Objects & Screens</li>
-                    <li>Fast paced gameplay</li>
-                    <li>Detailed & immersive levels</li>
-                    <li>Singleplayer Story</li>
-                    <li>Puzzles</li>
-                    <li>Global Leaderboards</li>
+                    <li><b>Infinite Exploration: </b> Discover an ever-repeating world, bending reality in all directions.</li>
+                    <li><b>Puzzles and Parkour: </b> Challenge your mind and agility with puzzles and parkour. </li>
+                    <li><b>OST:</b> 5 unique Tracks</li>
+                    <li><b>Unique Artstyle:</b> Experience a visually stunning world with a distinctive art style.</li>
                 </ul>
             </div>
         </div>
+        <button class="btn" onclick="window.open('https://github.com/Stefaaan06/aeterna')">
+            Source code on Github
+        </button>
     </div>
-    <div class="previewPart">
+    <div class="previewPart marginTop25">
         <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <img src="../img/Mik/S2%20(Custom).png" loading="lazy" alt="Mik Image 1" style="width:100%">
+                <img src="../img/Aeterna/Aeterna1.png" alt="Aeterna Image 1" loading="lazy" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="../img/Mik/S1%20(Custom).png" loading="lazy" alt="Mik Image 2" style="width:100%">
+                <img src="../img/Aeterna/Aeterna2.png" alt="Aeterna Image 2" loading="lazy" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="../img/Mik/S3%20(Custom).png" loading="lazy" alt="Mik Image 3" style="width:100%">
+                <img src="../img/Aeterna/Aeterna5.png" alt="Aeterna Image 3" loading="lazy" style="width:100%">
             </div>
 
             <!-- Next and previous buttons -->
@@ -101,20 +88,24 @@
         </div>
     </div>
 </div>
+
 <div id="part1" class="trailer">
-    <svg height="50" width="800">
+    <br>
+    <svg class="line" height="50" width="800">
         <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
     </svg>
     <div class="center">
-        <h2>Teaser Trailer</h2>
+        <h2>Release Trailer</h2>
         <div class="previewPart marginTop5 alignSelfCenter">
             <iframe
                     class="previewVideo"
-                    src="https://www.youtube.com/embed/HTV51gST5m0">
+                    src="https://www.youtube.com/embed/yk1fKxja2XY">
             </iframe>
         </div>
     </div>
 </div>
+
+
 
 <footer>
     <a id="footer-text" href="https://twitter.com/Stefaaan06" class="moreInfo" target="_blank">By @Stefaaan06 - 2023</a>

@@ -1,8 +1,9 @@
+<!-- The HTML Sub-Page for the Game MIK -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Games | Mik</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/effects.css">
     <link rel="stylesheet" href="../css/imageSlider.css">
@@ -12,7 +13,7 @@
 <body>
 <nav class="">
     <!--  made-up logo  -->
-    <a href="index.html" id="main-logo">
+    <a href="../hub/index.html" id="main-logo">
         <p class="logo">H</p>
         <div class="rectangle"></div>
         <p class="logo">ME</p>
@@ -20,7 +21,7 @@
 
     <div class="navLinks">
         <div class="dropdown">
-            <a href="Games.html" class="navbar navbarButton">Games</a>
+            <a href="../hub/Games.html" class="navbar navbarButton">Games</a>
             <div class="hidden">
                 <a href="Mik.html" class="navbar navSublinks">Mik</a>
                 <a href="aeterna.html" class="navbar navSublinks">Aeterna</a>
@@ -28,7 +29,7 @@
                 <a href="DeliverDeezNuts.html" class="navbar navSublinks">Deliver Deez Nuts</a>
             </div>
         </div>
-        <a href="News.html" class="navbar navbarButton">News</a>
+        <a href="../hub/News.html" class="navbar navbarButton">News</a>
     </div>
 
 </nav>
@@ -36,16 +37,15 @@
 
 <div id="part0">
     <div id="hero" class="flex column">
-            <h1>
-                <span class="title">M</span>
-                <span class=title>I</span>
-                <span class="title">K</span>
-            </h1>
+        <h1>
+            <span class="title">M</span>
+            <span class=title>I</span>
+            <span class="title">K</span>
+        </h1>
 
         <div class="part0-info flex column">
             <p>Mik is a story based & fast-paced first person jump & run game in which you explore a detailed & interactable abandoned facility. Run on walls, jump over cliffs and find out about the past of Revelo Robotics.
             </p>
-            <a class="moreInfo"href="Mik.html">More Info</a>
             <button class="btn" onclick="window.open('https://store.steampowered.com/app/2547010/Mik/')">
                 Wishlist on Steam
             </button>
@@ -56,12 +56,9 @@
                 <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
             </svg>
             <div class="part0-info flex column">
-                <h2>Mik Devlog 6</h2>
-                <p>Volumetric Lights, Plants, custom operating System and more!
+                <h2>Gameplay</h2>
+                <p>Escape a broken & seemingly abandoned Facility by stringing together various movement abilities, interacting with the environment and solving simple Puzzles. <br> Traverse various Areas of the fallen Company and find out about its Past.
                 </p>
-                <button class="btn" onclick="window.open('https://store.steampowered.com/news/app/2547010/view/4020094168377330454?l=english')">
-                    Read more on steam
-                </button>
             </div>
         </div>
 
@@ -70,12 +67,15 @@
                 <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
             </svg>
             <div class="part0-info flex column">
-                <h2>Mik Devlog 5</h2>
-                <p>Code Rework, Main Menu rework, and...
-                </p>
-                <button class="btn" onclick="window.open('https://store.steampowered.com/news/app/2547010/view/3877100912058437011')">
-                    Read more on steam
-                </button>
+                <h2>Features</h2>
+                <ul>
+                    <li>Interactable Objects & Screens</li>
+                    <li>Fast paced gameplay</li>
+                    <li>Detailed & immersive levels</li>
+                    <li>Singleplayer Story</li>
+                    <li>Puzzles</li>
+                    <li>Global Leaderboards</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -84,11 +84,11 @@
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <img src="../img/Mik/S1%20(Custom).png" loading="lazy" alt="Mik Image 1" style="width:100%">
+                <img src="../img/Mik/S2%20(Custom).png" loading="lazy" alt="Mik Image 1" style="width:100%">
             </div>
 
             <div class="mySlides fade">
-                <img src="../img/Mik/S2%20(Custom).png" loading="lazy" alt="Mik Image 2" style="width:100%">
+                <img src="../img/Mik/S1%20(Custom).png" loading="lazy" alt="Mik Image 2" style="width:100%">
             </div>
 
             <div class="mySlides fade">
@@ -100,7 +100,20 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </div>
-
+</div>
+<div id="part1" class="trailer">
+    <svg height="50" width="800">
+        <line x1="0" y1="0" x2="8000" y2="0" style="stroke:rgb(255,255,255);stroke-width:5" />
+    </svg>
+    <div class="center">
+        <h2>Teaser Trailer</h2>
+        <div class="previewPart marginTop5 alignSelfCenter">
+            <iframe
+                    class="previewVideo"
+                    src="https://www.youtube.com/embed/HTV51gST5m0">
+            </iframe>
+        </div>
+    </div>
 </div>
 
 <footer>
