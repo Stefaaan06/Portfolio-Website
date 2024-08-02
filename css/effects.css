@@ -51,13 +51,29 @@ button{
     outline: white;
     outline-style: solid;
 }
-.navbarButton{
-    letter-spacing: 0;
-    transition: ease-out 0.5s;
+
+.navbarButton {
+    display: inline-block;
+    position: relative;
+    height: fit-content;
 }
 
-.navbarButton:hover{
-    letter-spacing: 2px;
+.navbarButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbarButton:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .rectangle{
