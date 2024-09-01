@@ -96,4 +96,10 @@ button{
     rotate: 90deg;
 }
 
+@media screen and (max-width: 1200px){
+    .btn{
+        max-width: 30vw;
+    }
+}
+
 

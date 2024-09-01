@@ -324,13 +324,39 @@ a{
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
     h1 {
         font-size: 10vw;
         letter-spacing: 0;
     }
     li{
         font-size: 3vh;
+    }
+
+    .navLinks{
+        flex: 0 1 50%;
+    }
+    .hidden{
+        display: none;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .moreInfo{
+        font-size: 1.5vw;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .previewPart{
+        display: none;
+    }
+    .trailer{
+        display: none;
     }
 
     #hero{
@@ -348,47 +374,22 @@ a{
     .games{
         width: 100%;
     }
-    .previewPart{
-        display: none;
-    }
     .part1-info,
     .part2-info {
         width: 100%;
     }
-
-    .navLinks{
-        flex: 0 1 50%;
-
-    }
-
-    .hidden{
-        display: none;
-    }
-
-    h2 {
-        font-size: 5vw;
-    }
-
     .title{
         letter-spacing: 0;
     }
 
-    .trailer{
-        display: none;
-    }
-
     .line{
-        width: 50vw;
-    }
-
-    .moreInfo{
-        font-size: 2vw;
+        width: 30vw;
     }
 }
 
 @media screen and (max-width: 1000px){
     .moreInfo{
-        font-size: 4vw;
+        font-size: 2vw;
     }
     li{
         font-size: 4vw;
