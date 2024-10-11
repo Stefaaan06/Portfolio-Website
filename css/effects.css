@@ -2,6 +2,10 @@
     animation: crt-power-on 0.7s forwards linear;
 }
 
+#jumpAnim{
+    animation: crt-power-on 0.7s forwards linear;
+}
+
 button{
     margin-top: 20px;
     width: 50%;
@@ -56,7 +60,7 @@ button{
 
 
 
-.navbarButtonEffectFFFFFFFF:hover {
+.navbarButtonEffect:hover {
     text-decoration: underline;
 }
 
