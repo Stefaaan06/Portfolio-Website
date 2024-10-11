@@ -50,7 +50,7 @@ h1 {
     line-height: 1;
     letter-spacing: -5px;
     font-family: 'Sixtyfour Convergence';
-    color: white;
+    color: #ec5250;
 }
 
 @media (pointer:fine) {
@@ -80,6 +80,7 @@ h2 {
     line-height: 1;
     margin: 5px;
 
+    color: #ec5250;
     font-family: 'Sixtyfour Convergence';
 }
 
@@ -87,7 +88,6 @@ h3{
     color: #ffffff;
     font-size: 35px;
     margin: 0;
-
     font-family: 'VT323';
 }
 
