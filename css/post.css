@@ -1,8 +1,5 @@
 @media (pointer:fine) {
 
-    @media (pointer: none), (pointer: coarse) {
-    }
-
     @keyframes flicker {
         0% {
             opacity: 0.27861;

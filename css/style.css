@@ -43,23 +43,36 @@ footer {
 
 
 h1 {
-    margin: 0;
+    margin-top: 3vh;
     font-size: 6vw;
     position: relative;
     font-weight: 800;
     line-height: 1;
     letter-spacing: -5px;
-
-    text-shadow:
-            0 0 10px #fff,
-            0 0 21px #fff,
-            0 0 42px #ec5250,
-            0 0 82px #ec5250,
-            0 0 92px #ec5250,
-            0 0 102px #ec5250;
-    font-family: 'Sixtyfour Convergence';
-
 }
+
+@media (pointer:fine) {
+    h1 {
+        margin: 0;
+        font-size: 6vw;
+        position: relative;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -5px;
+
+        text-shadow:
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #ec5250,
+                0 0 82px #ec5250,
+                0 0 92px #ec5250,
+                0 0 102px #ec5250;
+        font-family: 'Sixtyfour Convergence';
+
+    }
+}
+
+
 h2 {
     font-size: 60px;
     line-height: 1;
