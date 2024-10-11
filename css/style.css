@@ -3,6 +3,9 @@
 
 body {
     background-color: black;
+    background-image: radial-gradient(
+            rgba(26, 26, 26, 0.75), black 120%
+    );
 
     display: flex;
     flex-direction: column;
@@ -15,6 +18,8 @@ body {
 
     animation: fadeIn 1s;
     opacity: 1;
+
+    min-height: 100vh;
 }
 
 @keyframes fadeIn {
