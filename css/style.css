@@ -50,6 +50,7 @@ h1 {
     line-height: 1;
     letter-spacing: -5px;
     font-family: 'Sixtyfour Convergence';
+    color: white;
 }
 
 @media (pointer:fine) {
