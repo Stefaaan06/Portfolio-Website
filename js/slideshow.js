@@ -13,7 +13,7 @@ function plusSlides(n) {
     setTimeout(function() {
         slides[slideIndex-1].classList.remove('fade-out');
         showSlides(slideIndex += n);
-    }, 1000); // same duration as the fade-out animation
+    }, 0); // same duration as the fade-out animation
 }
 
 function showSlides(n) {

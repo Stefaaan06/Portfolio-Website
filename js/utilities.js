@@ -5,4 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
         textElement.textContent = `©Stefaaan06 - ${currentYear}`;
     }
     updateYear();
+
+
 });

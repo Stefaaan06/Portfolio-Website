@@ -23,10 +23,9 @@
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: white;
+    color: rgb(105, 105, 105);
     font-weight: bold;
     font-size: 60px;
-    transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
@@ -39,7 +38,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    color: grey;
+    color: #ffffff;
 
 }
 
@@ -57,9 +56,9 @@
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0s;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 0s;
 }
 
 @-webkit-keyframes fade {
@@ -73,7 +72,7 @@
 }
 
 .fade-out {
-    animation: fade-out 1.1s;
+    animation: fade-out 0.1s;
 }
 
 @keyframes fade-out {
