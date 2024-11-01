@@ -381,6 +381,9 @@ a{
     .hidden{
         display: none;
     }
+    .navbarButtonEffectDelay:hover{
+        text-decoration: underline;
+    }
 
     h2 {
         font-size: 40px;
